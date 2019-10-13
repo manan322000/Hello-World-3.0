@@ -1,37 +1,107 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html ng-app="myModule">
+  <head>
 
-You can use the [editor on GitHub](https://github.com/manan322000/Hello-World-3.0/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+  	<script type="text/javascript" src="angular.min.js"></script>
+  	<script type="text/javascript" src="FirstAid.js"></script>
+  	<link rel="stylesheet" type="text/css" href="FirstAid.css">
+  	
+  	
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-### Markdown
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:700&display=swap" rel="stylesheet">
 
-```markdown
-Syntax highlighted code block
+  </head>
+  <body>
+  <div id="main">
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+    <div id="header">
+     
+      <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#aboutus">About Us</a>
+        <a href="#contact">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
 
-1. Numbered
-2. List
+        <form class="navbar-form navbar-right" method="get" action="http://www.google.com/search" style="color: white; padding-right: 40px" >
+          <div class="input-group">
+            <input type="text" name="q" size="20" maxlength="255" value="" style="color: black" class="form-control" placeholder="Search Google"/> 
+            <div class="input-group-btn">
+              <button class="btn btn-default" type="submit">
+                <i class="glyphicon glyphicon-search"></i>
+              </button>
+            </div>
+          </div>
+        </form>
+        
+      </div>
 
-**Bold** and _Italic_ and `Code` text
+    </div>
 
-[Link](url) and ![Image](src)
-```
+    <div id="body1" >
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+      <div style="padding-left: 45.5%">
+          <img src="mirage.png" alt="Mirage">
+      </div>
+      <br>
+      <p id="heading" style="font-size: 75px; text-align: center; color: #dd2476">FIRST AID</p>
+      <br>
+      <p style="font-size: 30px; text-align: left; padding-left: 8px">Steps to Follow:</p>
 
-### Jekyll Themes
+    </div>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/manan322000/Hello-World-3.0/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+    <div id="body2" >
 
-### Support or Contact
+      <ol>
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+        <li>If unconscious, give CPR.</li>
+        <li>Lay the person on his back on a firm surface.</li>
+        <li>Kneel next to the peron's neck and shoulders.</li>
+        <li>Place the heel of one hand over the center of the person's chest, between the nipples. Place your other hand on top of the first hand.</li>
+        <li>Keep your elbows straight and position your shoulders directly above your hands.</li>
+        <li>Use your upper body weight (not just your arms) as you compress the chest at least 2 inches (approximately 5 centimeters) but not greater than 2.4 inches (approximately 6 centimeters).</li>
+        <li>Give chest compressions of 100-120 compressions a minute.</li>
+        <li>If you haven't been trained in CPR, continue chest compressions until there are signs of movement or until emergency medical personnel take over.</li>
+
+      </ol>
+
+    </div>
+
+    <br>
+    <div>
+      <form id="button" action="https://www.youtube.com/watch?v=hizBdM1Ob68">
+         <button type="submit" class="btn"><span style="font-weight: bold; color: white; font-size: 15px">View Demonstration</span></button>
+      </form>
+    </div>
+    <br><br><br><br>
+
+    <div>
+
+      <div class="navbar navbar-fixed-bottom" id="myNavbar">
+        <a href="#home">Hotline Contact Number : 1800 536 678</a>
+      <!--
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+      -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+
+    </div>
+
+  </div>
+  <script src="https://code.responsivevoice.org/responsivevoice.js?key=zVG12Uxj"></script>
+  </body>
+</html>
